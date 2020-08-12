@@ -1,0 +1,172 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+font-size: 16px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#navegacao {
+background:#007791;
+border-bottom: 1px solid #d8d8d8;
+height: 76px;
+}
+.area{
+width: 950px;
+margin: 0 auto;
+}
+.empresas{
+float: left;
+padding: 27px 0;
+text-shadow: 1px 1px 1px #6f6f6f;
+margin-left: 5%
+margin-left: -120px;
+font-size: 16px;
+color: white;
+}
+
+.menu{
+float: right;
+padding: 25px 0;
+text-shadow: black;
+}
+
+/*formatação menu*/
+
+a {
+text-decoration: none;
+padding: 5px 10px;
+}
+
+
+/*links nao visitados*/
+a:link {
+color: white;
+}
+
+/*links visitados*/
+a:visited {
+   color: white;
+}
+/*links hover*/
+a:hover {
+background:#80E075;
+color: #f3f3f3;
+border-radius: 10px;
+box-shadow: 1px 1px 1px #6f6f6f;
+}
+/*links active*/
+a:active {
+color: red;
+
+}
+
+input {
+margin-top: 30px;
+width: 60%;
+height: 40px;
+border-radius: 5px;
+margin-left: 20% ;
+font-size: 20px;
+text-align: center;
+}
+.manuntecao{
+margin-top: 25px;
+text-align: center;
+color: #404040;
+}
+hr{
+margin-top: 20px;
+}
+
+.dados{
+float: left;
+border:1px solid #6f6f6f;;
+margin-left: 15%;
+margin-top: 25px;
+width: 350px;
+    text-indent: 20px;
+padding-top: 10px;
+text-align: justify;
+height: 480px;
+}
+
+
+.veja{
+margin-left: 20px;
+padding-top: 10px;
+color: #6f6f6f;
+}
+.ger{
+padding-left: 10px;  
+}
+p{
+padding-top: 10px;
+}
+h3{
+font-size: 12px;
+padding-top: 5px;
+}
+
+}
+.gerencie{
+margin-left: 20px;
+color: #6f6f6f;
+padding-top: 5px;
+}
+.up{
+padding-top: 10px;
+}
+
+.geren{
+background:#007791;
+height: 30px;
+clear: both;
+}
+.certificado{
+border:1px solid #6f6f6f;
+margin-bottom: 30px;
+margin-top: 45%;
+height: auto;
+width: 70%;
+margin-left: 15%;
+
+
+}
+.cert{
+margin-left: 20px;
+color: #6f6f6f;
+padding-top: 5px;
+}
+.venci{
+margin-left: 20px;
+color: #6f6f6f;
+padding-top: 20px;
+}
+.cnae{
+border:1px solid #6f6f6f;
+margin-bottom: 30px;
+margin-top: 3%;
+height: auto;
+width: 70%;
+margin-left: 15%;
+}
+.cabecalho{
+    margin-top: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #6f6f6f;
+   }
+   .usando{
+    float: right;
+    padding-left: 30%;
+ 
+   
+   }
+
+   .termo{
+    float: right;
+    margin-left: 5px;
+
+   }

@@ -1,0 +1,114 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+font-size: 16px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+
+}
+
+#navegacao {
+background:#007791;
+border-bottom: 1px solid #d8d8d8;
+height: 76px;
+
+}
+.area{
+width: 950px;
+margin: 0 auto;
+}
+.empresas{
+
+float: left;
+padding: 27px 0;
+text-shadow: 1px 1px 1px #6f6f6f;
+margin-left: 5%;
+text-shadow: 1px 1px 1px #6f6f6f;
+margin-left: -120px;
+font-size: 16px;
+color: white;
+
+}
+
+.menu{
+float: right;
+padding: 25px 0;
+text-shadow: black;
+
+}
+
+/*formatação menu*/
+
+a {
+text-decoration: none;
+padding: 5px 10px;
+}
+
+
+/*links nao visitados*/
+a:link {
+color: white;
+}
+
+/*links visitados*/
+a:visited {
+   color: white;
+}
+/*links hover*/
+a:hover {
+background:#80E075;
+color: #f3f3f3;
+border-radius: 10px;
+box-shadow: 1px 1px 1px #6f6f6f;
+}
+/*links active*/
+a:active {
+color: red;
+
+}
+
+input {
+margin-top: 30px;
+width: 60%;
+height: 40px;  
+border-radius: 5px;
+margin-left: 20% ;
+font-size: 20px;
+text-align: center;
+}
+.manuntecao{
+margin-top: 25px;
+text-align: center;
+color: #404040;
+}
+hr{
+margin-top: 20px;
+}
+.princ{
+margin-left: 27%;
+
+}
+.principal{
+border:1px solid #E0E0E0;
+float: left;
+margin-top: 20px;
+margin-right: 35px;
+width: 300px;
+height: 150px;
+padding-top: 10px;
+
+}
+
+.gerencie{
+margin-left: 20px;
+color: #6f6f6f;
+padding-top: 5px;
+}
+.veja{
+margin-left: 20px;
+padding-top: 10px;
+color: #6f6f6f;
+
+}

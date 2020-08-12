@@ -1,0 +1,74 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.red{
+color: #007791;
+}
+.cinza{
+color: #6f6f6f;
+     }
+
+.logo{
+
+text-shadow: 1px 1px 1px #6f6f6f;
+margin-left: 45%;
+margin-top: 45px;
+
+}
+
+#principalsair{
+	margin-top: 50px;
+	margin-left: 35%;
+	border:1px solid #E0E0E0;
+	border-radius: 10px;
+	background: #007791;
+  box-shadow: #6f6f6f;
+   width: 500px;
+   height: 400px;
+}
+
+.logar{
+	margin-top: 20px;
+	margin-left: 20%;
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: white;
+}
+
+p{
+	margin-left: 20px;
+	color: white;
+	font-size: 25px;
+}
+
+input {
+margin-top: 10px;
+width: 80%;
+height: 30px;
+border-radius: 10px;
+margin-left: 5% ;
+font-size: 20px;
+
+
+}
+button {
+	width: 80%;
+	padding: 10px 0;
+	background: white;
+	color: #007791;;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;/*quando passar o mouse o usuario saber que é clicavel, aparecer a maozinha*/
+	margin-top:5px;
+	margin-left: 5%;
+}
+.ainda{
+	margin-top: 15px;
+	margin-left: 27px;
+	float: left;
+	color: white;
+}

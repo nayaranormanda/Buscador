@@ -1,0 +1,95 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+font-size: 16px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#navegacao {
+background:#007791;
+border-bottom: 1px solid #d8d8d8;
+height: 76px;
+}
+.area{
+width: 950px;
+margin: 0 auto;
+}
+.empresas{
+float: left;
+padding: 27px 0;
+text-shadow: 1px 1px 1px #6f6f6f;
+margin-left: 5%;
+text-shadow: 1px 1px 1px #6f6f6f;
+margin-left: -120px;
+font-size: 16px;
+color: white;
+}
+.menu{
+float: right;
+padding: 25px 0;
+text-shadow: black;
+}
+/*formatação menu*/
+a {
+text-decoration: none;
+padding: 5px 10px;
+}
+/*links nao visitados*/
+a:link {
+color: white;
+}
+/*links visitados*/
+a:visited {
+   color: white;
+}
+/*links hover*/
+a:hover {
+background:#80E075;
+color: #f3f3f3;
+border-radius: 10px;
+box-shadow: 1px 1px 1px #6f6f6f;
+}
+/*links active*/
+a:active {
+color: red;
+}
+input {
+margin-top: 30px;
+width: 60%;
+height: 40px;
+border-radius: 5px;
+margin-left: 20% ;
+font-size: 20px;
+text-align: center;
+}
+.menu2{
+   border:1px solid #E0E0E0;
+   width: 265px;
+   margin-top: 50px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   margin-left: 40%;
+   background: #007791;
+   border-radius: 10px;
+     }
+footer{
+    margin-top: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #6f6f6f;
+   }
+   .usando{
+    float: right;
+    padding-left: 30%;
+ 
+   
+   }
+
+   .termo{
+    float: right;
+    margin-left: 5px;
+
+   }
+   

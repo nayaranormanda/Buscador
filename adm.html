@@ -1,0 +1,82 @@
+ <!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+<title>Buscador</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/adm.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <nav id="navegacao">
+            <div class="area">
+                <h1 class="empresas"><a href="empresa.html">EMPRESA(S)</a></h1>
+                <div class="menu">
+                    <a href="index.html"> HOME</a>
+                    <a href="baixarnotas.html"> BAIXAR NOTAS</a> <!--aqui e importar e exportar notas, e gerar relatorios-->
+                    <a href="convites.html"> MEUS CONVITES</a>
+                    <a href="sair.html"> SAIR</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+ <article>
+    <section>
+        <label for="txtbusca">
+            <input type="text" id="txtbusca" alt="buscar" placeholder="Pesquise suas notas" autofocus>
+        </label>
+            <h2 class="manuntecao">Manutenção da conta</h2>
+            <hr>
+    </section>
+
+    <section class="card1">
+        <h2>Veja os dados na sua conta e escolha qual atividade será<br>
+        salva para  personalizar sua experiência.</h2>
+        <h6>Gerencie suas informações, privacidade e segurança para que o protetor atenda
+        suas necessidades.</h6><hr>
+            <div class="subcard"><!--ve depois se nao dá para colocar uma section no lugar da div-->
+                <h4><a href="dadosempresa.html">Dados da sua empresa</a></h4>
+                <hr>
+                <h4><a href="assinatura.html">Assinatura</a></h4>
+                <hr>
+                <h4><a href="usuarios.html">Usúarios</a></h4>
+                <hr>
+                <h4><a href="logs.html">Logs de Sistemas  / Protocolos</a></h4>
+            </div>
+    </section>
+<!--segundo card-->
+    <section class="card1"><!--tamanho do quadrado de armazenamento-->
+        <h2>Armazenamento de conta</h2>
+        <h6>O armazenamento da sua contaa é ilimitado para NFCe.</h6>
+        <form>
+            <div class="veja"><!--verificar se pode ser no forme a class, sem alterar o gerenciar-->
+                <label  for="formControlRanger"><h6>Usado 21%: 3,20 GB de 15GB<h6></label>
+                <input type="range" class="form-Control-Ranger" name="" id="form-Control-Ranger">
+            </div>
+        </form> 
+                <hr>
+            <div class="geren"><!--verificar se pode ser pode ser uma section -->
+                <p><a href="gerenciar.html">Gerenciar</a></p>
+            </div>
+    </section>
+<!--terceiro card-->
+    <section class="card1">
+        <h2>Visão do contador</h2>
+        <h6>Para facilitar o compartilhamento das suas informações com o<br>
+        contador, você pode exportar os Documentos Fiscais Eletrônicos.</h6>
+        <hr>
+        <div class="geren">
+        <p><a href="#">Exportação</a></p>
+        </div>
+    </section>
+</article>
+
+    <footer> <!--verificar se da para colocar h6 em uma div-->
+        <h6 class="usando">Usando 21% 3,20 GB de 15GB<br/>Gerenciar conta</h6>
+        <h6 class="termo">Termos-Privacidade-Regulamento</h6>
+        <h6>Protetor - 2020<br/>
+        Todos os Direitos Resernados</h6>
+    </footer>
+</body>
+</html>
